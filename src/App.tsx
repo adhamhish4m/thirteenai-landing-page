@@ -1,5 +1,6 @@
 import { Sparkles, Zap, Target, TrendingUp, ArrowRight, CheckCircle, BarChart3, Users, MessageSquare, Rocket } from 'lucide-react';
 import './index.css';
+import { BackgroundPaths } from './components/ui/background-boxes';
 
 function App() {
   const handleGetStarted = () => {
@@ -8,13 +9,10 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden">
-      {/* Animated Background */}
-      <div className="fixed inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 via-background to-blue-500/5" />
-        <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-500/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob" />
-        <div className="absolute top-0 -right-4 w-72 h-72 bg-blue-500/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000" />
-        <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-500/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000" />
+    <div className="min-h-screen relative">
+      {/* Animated Background with Paths */}
+      <div className="fixed inset-0 -z-10 bg-gradient-to-br from-black via-purple-950/20 to-black overflow-hidden">
+        <BackgroundPaths />
       </div>
 
       {/* Navigation */}
@@ -32,7 +30,7 @@ function App() {
             <div className="flex items-center gap-3 sm:gap-4">
               <button
                 onClick={handleGetStarted}
-                className="px-4 py-2 sm:px-6 sm:py-2.5 bg-gradient-to-r from-primary via-[#c794de] to-primary text-white rounded-lg hover:shadow-xl hover:shadow-primary/40 hover:scale-105 transition-all font-semibold text-sm sm:text-base"
+                className="px-4 py-2 sm:px-6 sm:py-2.5 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors font-semibold text-sm sm:text-base"
               >
                 Get Started
                 <ArrowRight className="inline-block ml-2 h-4 w-4" />
@@ -76,9 +74,8 @@ function App() {
                   <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
                     <iframe
                       src="https://www.loom.com/embed/e5f3a873cee244a1b8948472d9ab2ab2?sid=8b3e5e5c-3b5e-4f5e-9b5e-5e5c3b5e5e5c"
-                      frameBorder="0"
                       allowFullScreen
-                      style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                      style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
                       title="THIRTEEN AI Demo"
                     />
                   </div>
@@ -89,7 +86,7 @@ function App() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 sm:mb-12">
                 <button
                   onClick={handleGetStarted}
-                  className="w-full sm:w-auto px-8 py-6 bg-gradient-to-r from-primary via-[#c794de] to-primary text-white rounded-lg hover:shadow-2xl hover:shadow-primary/50 hover:scale-105 transition-all text-base sm:text-lg font-semibold"
+                  className="w-full sm:w-auto px-8 py-6 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors text-base sm:text-lg font-semibold"
                 >
                   <Rocket className="inline-block mr-2 h-5 w-5" />
                   Start Free Trial
@@ -244,7 +241,7 @@ function App() {
               </p>
               <button
                 onClick={handleGetStarted}
-                className="px-8 sm:px-12 py-6 sm:py-7 bg-gradient-to-r from-primary via-[#c794de] to-primary text-white rounded-lg hover:shadow-2xl hover:shadow-primary/50 hover:scale-105 transition-all text-base sm:text-lg font-semibold"
+                className="px-8 sm:px-12 py-6 sm:py-7 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors text-base sm:text-lg font-semibold"
               >
                 <Rocket className="inline-block mr-2 h-5 w-5 sm:h-6 sm:w-6" />
                 Start Your Free Trial
