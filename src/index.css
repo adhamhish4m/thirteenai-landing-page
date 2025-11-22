@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 4%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 6%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 6%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 291 60% 64%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 222 47% 8%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 47% 8%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 291 60% 64%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 222 47% 12%;
+    --input: 222 47% 8%;
+    --ring: 291 60% 64%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: radial-gradient(ellipse at top, hsl(291 60% 15%) 0%, hsl(291 50% 8%) 40%, hsl(0 0% 0%) 100%);
+    position: relative;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 50%, hsl(291 60% 20% / 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, hsl(291 55% 25% / 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, hsl(291 65% 15% / 0.4) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply backdrop-blur-sm bg-black/[0.15] border border-white/[0.05];
+  }
+
+  .glass-card {
+    @apply backdrop-blur-sm bg-black/[0.2] border border-white/[0.05] shadow-lg;
+  }
+
+  .glass-strong {
+    @apply backdrop-blur-md bg-black/[0.25] border border-white/[0.08] shadow-xl;
+  }
+
+  .glass-hover {
+    @apply transition-all duration-300 hover:bg-black/[0.3] hover:border-white/[0.08] hover:shadow-lg;
+  }
+}
+
+@layer utilities {
+  @keyframes blob {
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+  }
+
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
