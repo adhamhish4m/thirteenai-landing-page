@@ -49,6 +49,18 @@
     pointer-events: none;
     z-index: -1;
   }
+
+  ::selection {
+    background-color: hsl(291 60% 64% / 0.3);
+    color: hsl(291 60% 95%);
+    text-shadow: 0 0 8px hsl(291 60% 64% / 0.5);
+  }
+
+  ::-moz-selection {
+    background-color: hsl(291 60% 64% / 0.3);
+    color: hsl(291 60% 95%);
+    text-shadow: 0 0 8px hsl(291 60% 64% / 0.5);
+  }
 }
 
 @layer components {
