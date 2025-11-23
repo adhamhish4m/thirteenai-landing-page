@@ -1,4 +1,4 @@
-import { Sparkles, Database, Bot } from 'lucide-react';
+import { Pen, Database, Bot } from 'lucide-react';
 import './index.css';
 import { BackgroundPaths } from './components/ui/background-boxes';
 import { PopupModal } from 'react-calendly';
@@ -87,16 +87,16 @@ function App() {
               {/* Social Proof */}
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-12 text-sm sm:text-base text-muted-foreground">
                 <div className="flex items-center gap-2">
-                  <Sparkles className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" />
-                  <span>copy that converts</span>
-                </div>
-                <div className="flex items-center gap-2">
                   <Database className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" />
                   <span>enriched leads</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Bot className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" />
                   <span>ai personalization</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Pen className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" />
+                  <span>copy that converts</span>
                 </div>
               </div>
             </div>
