@@ -104,7 +104,7 @@ function App() {
         </section>
 
         {/* Stats Section */}
-        <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+        <section className="py-8 sm:py-10 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
               <div className="glass-strong p-6 sm:p-8 rounded-2xl text-center hover:-translate-y-2 transition-all duration-300">
