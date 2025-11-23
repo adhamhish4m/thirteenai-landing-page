@@ -57,7 +57,7 @@ function App() {
 
               {/* Subheadline */}
               <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
-                book 10 qualified calls in 60 days guaranteed
+                book 11 qualified calls in 58 days guaranteed
               </p>
 
               {/* VSL Video - Primary Focus */}
