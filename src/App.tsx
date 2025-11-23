@@ -1,10 +1,14 @@
 import { Sparkles, Database, Bot } from 'lucide-react';
 import './index.css';
 import { BackgroundPaths } from './components/ui/background-boxes';
+import { PopupModal } from 'react-calendly';
+import { useState } from 'react';
 
 function App() {
+  const [isCalendlyOpen, setIsCalendlyOpen] = useState(false);
+
   const handleBookCall = () => {
-    window.location.href = 'https://calendly.com/adham-hamza/discovery';
+    setIsCalendlyOpen(true);
   };
 
   return (
@@ -43,11 +47,11 @@ function App() {
               {/* Main Headline */}
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight">
                 <span className="text-primary">
-                  Personalize
+                  Outreach
                 </span>
-                {' '}at scale with{' '}
+                {' '}that fills your{' '}
                 <span className="text-white">
-                  AI
+                  calendar
                 </span>
               </h1>
 
@@ -124,6 +128,14 @@ function App() {
           </div>
         </section>
       </div>
+
+      {/* Calendly Popup Modal */}
+      <PopupModal
+        url="https://calendly.com/adham-hamza/discovery"
+        onModalClose={() => setIsCalendlyOpen(false)}
+        open={isCalendlyOpen}
+        rootElement={document.getElementById('root')!}
+      />
     </div>
   );
 }
