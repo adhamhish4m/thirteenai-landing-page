@@ -108,4 +108,12 @@
   .animation-delay-4000 {
     animation-delay: 4s;
   }
+
+  /* Hide Calendly loading dots */
+  .calendly-spinner,
+  .calendly-popup .calendly-spinner,
+  [class*="calendly"] [class*="spinner"],
+  [class*="calendly"] [class*="loading"] {
+    display: none !important;
+  }
 }
