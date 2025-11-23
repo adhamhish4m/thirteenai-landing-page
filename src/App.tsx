@@ -109,7 +109,7 @@ function App() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
               <div className="glass-strong p-6 sm:p-8 rounded-2xl text-center hover:-translate-y-2 transition-all duration-300">
                 <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-2">
-                  $130,000+
+                  $132,635
                 </div>
                 <div className="text-sm sm:text-base md:text-lg text-muted-foreground">
                   Generated in Client Opportunities
