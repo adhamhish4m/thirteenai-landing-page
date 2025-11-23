@@ -41,7 +41,7 @@ function App() {
 
       <div className="relative z-10">
         {/* Hero Section with VSL */}
-        <section className="pt-20 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8">
+        <section className="pt-8 sm:pt-12 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-6xl mx-auto">
               {/* Main Headline */}
