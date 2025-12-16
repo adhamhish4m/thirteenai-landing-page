@@ -1,14 +1,16 @@
 import { Pen, Database, Bot } from 'lucide-react';
 import './index.css';
 import { BackgroundPaths } from './components/ui/background-boxes';
-import { PopupModal } from 'react-calendly';
-import { useState } from 'react';
 
 function App() {
-  const [isCalendlyOpen, setIsCalendlyOpen] = useState(false);
-
   const handleBookCall = () => {
-    setIsCalendlyOpen(true);
+    const cal = (window as any).Cal;
+    if (cal && cal.ns && cal.ns["fit-assessment"]) {
+      cal.ns["fit-assessment"]("modal", {
+        calLink: "adham-hamza/fit-assessment",
+        config: { layout: "month_view" }
+      });
+    }
   };
 
   return (
@@ -128,14 +130,6 @@ function App() {
           </div>
         </section>
       </div>
-
-      {/* Calendly Popup Modal */}
-      <PopupModal
-        url="https://calendly.com/adham-hamza/discovery"
-        onModalClose={() => setIsCalendlyOpen(false)}
-        open={isCalendlyOpen}
-        rootElement={document.getElementById('root')!}
-      />
     </div>
   );
 }
