@@ -59,7 +59,7 @@ function App() {
 
               {/* Subheadline */}
               <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
-                book 11 qualified calls in 58 days guaranteed
+                Book more calls with your ideal clients using AI
               </p>
 
               {/* VSL Video - Primary Focus */}
