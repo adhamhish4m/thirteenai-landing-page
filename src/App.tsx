@@ -47,7 +47,7 @@ function App() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-6xl mx-auto">
               {/* Main Headline */}
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold mb-6 sm:mb-8 leading-tight">
                 <span className="text-primary">
                   Outreach
                 </span>
@@ -58,7 +58,7 @@ function App() {
               </h1>
 
               {/* Subheadline */}
-              <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-medium mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
                 Book more calls with your ideal clients using AI
               </p>
 
@@ -87,7 +87,7 @@ function App() {
               </div>
 
               {/* Social Proof */}
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-12 text-sm sm:text-base text-muted-foreground">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-12 text-sm sm:text-base text-muted-foreground font-medium">
                 <div className="flex items-center gap-2">
                   <Database className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" />
                   <span>enriched leads</span>
@@ -113,7 +113,7 @@ function App() {
                 <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-2">
                   $132,635
                 </div>
-                <div className="text-sm sm:text-base md:text-lg text-muted-foreground">
+                <div className="text-sm sm:text-base md:text-lg text-muted-foreground font-medium">
                   Generated in Client Opportunities
                 </div>
               </div>
@@ -122,7 +122,7 @@ function App() {
                 <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-2">
                   3 Calls
                 </div>
-                <div className="text-sm sm:text-base md:text-lg text-muted-foreground">
+                <div className="text-sm sm:text-base md:text-lg text-muted-foreground font-medium">
                   Booked in First 4 Days
                 </div>
               </div>

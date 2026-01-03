@@ -35,6 +35,7 @@
     background: radial-gradient(ellipse at top, hsl(267 63% 15%) 0%, hsl(267 53% 8%) 40%, hsl(0 0% 0%) 100%);
     position: relative;
     font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
   }
 
   body::before {
