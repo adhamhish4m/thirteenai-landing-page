@@ -26,7 +26,7 @@ function App() {
           <div className="flex items-center justify-between h-20 sm:h-24">
             <div className="flex items-center gap-2">
               <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
-                THIRTEEN AI
+                LEAD THIRTEEN
               </span>
             </div>
             <div className="flex items-center gap-3 sm:gap-4">
@@ -70,7 +70,7 @@ function App() {
                       src="https://www.loom.com/embed/e5f3a873cee244a1b8948472d9ab2ab2?sid=8b3e5e5c-3b5e-4f5e-9b5e-5e5c3b5e5e5c&hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true"
                       allowFullScreen
                       style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-                      title="THIRTEEN AI Demo"
+                      title="Lead Thirteen Demo"
                     />
                   </div>
                 </div>
