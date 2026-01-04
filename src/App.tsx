@@ -47,19 +47,17 @@ function App() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-6xl mx-auto">
               {/* Main Headline */}
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold mb-6 sm:mb-8 leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold mb-6 sm:mb-8 leading-tight">
+                Get more{' '}
                 <span className="text-primary">
-                  Outreach
+                  interested leads
                 </span>
-                {' '}that fills your{' '}
-                <span className="text-white">
-                  calendar
-                </span>
+                {' '}using AI
               </h1>
 
               {/* Subheadline */}
               <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-medium mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
-                Book more calls with your ideal clients using AI
+                <span className="text-primary">Personalized outreach</span> that brings you interested leads
               </p>
 
               {/* VSL Video - Primary Focus */}
