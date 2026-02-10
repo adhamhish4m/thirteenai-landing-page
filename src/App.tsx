@@ -1,4 +1,4 @@
-import { Pen, Database, Bot } from 'lucide-react';
+import { Pen, Database, Bot, Star } from 'lucide-react';
 import './index.css';
 import { BackgroundPaths } from './components/ui/background-boxes';
 
@@ -122,6 +122,93 @@ function App() {
                 </div>
                 <div className="text-sm sm:text-base md:text-lg text-muted-foreground font-medium">
                   Booked in First 4 Days
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials Section */}
+        <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-12 sm:mb-16">
+              What our <span className="text-primary">clients</span> say
+            </h2>
+
+            {/* Video Testimonials */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-10">
+              <div className="glass-strong rounded-2xl overflow-hidden shadow-lg shadow-primary/10 border border-white/10">
+                <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+                  <iframe
+                    src="https://www.youtube.com/embed/V0uXW7PsV0U?modestbranding=1&rel=0"
+                    allowFullScreen
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+                    title="Randy Clarke Testimonial"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  />
+                </div>
+                <div className="p-4 sm:p-5">
+                  <div className="flex gap-0.5 mb-2">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="h-4 w-4 fill-primary text-primary" />
+                    ))}
+                  </div>
+                  <p className="text-sm sm:text-base font-semibold text-foreground">Randy Clarke</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground">CEO, Go Janitorial</p>
+                </div>
+              </div>
+
+              <div className="glass-strong rounded-2xl overflow-hidden shadow-lg shadow-primary/10 border border-white/10">
+                <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+                  <iframe
+                    src="https://www.youtube.com/embed/N1JtDzzi_9A?modestbranding=1&rel=0"
+                    allowFullScreen
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+                    title="Vince Ozonoh Testimonial"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  />
+                </div>
+                <div className="p-4 sm:p-5">
+                  <div className="flex gap-0.5 mb-2">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="h-4 w-4 fill-primary text-primary" />
+                    ))}
+                  </div>
+                  <p className="text-sm sm:text-base font-semibold text-foreground">Vince Ozonoh</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground">Founder, TaskSpaceAI</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Text Testimonials */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+              <div className="glass-strong p-6 sm:p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300">
+                <div className="flex gap-0.5 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-4 w-4 fill-primary text-primary" />
+                  ))}
+                </div>
+                <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
+                  "Working with Adham has been a game changer. He combined deep technical knowledge with a strong grasp of compliance-sensitive workflows, helping us create a solution that genuinely reduces admin time and improves accuracy for advisers. Highly recommend."
+                </p>
+                <div>
+                  <p className="text-sm sm:text-base font-semibold text-foreground">Alessandro Tolomeo</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground">Founder, ID MATTER AI</p>
+                </div>
+              </div>
+
+              <div className="glass-strong p-6 sm:p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300">
+                <div className="flex gap-0.5 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-4 w-4 fill-primary text-primary" />
+                  ))}
+                </div>
+                <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
+                  "You've been very reliable, easy to work with and the quality of what you produced has exceeded what I expected! I really appreciate the effort you've put in and would recommend you to anyone!"
+                </p>
+                <div>
+                  <p className="text-sm sm:text-base font-semibold text-foreground">Jordan Hopkins</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground">Founder, ITK UK</p>
                 </div>
               </div>
             </div>
