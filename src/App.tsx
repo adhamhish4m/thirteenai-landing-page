@@ -29,12 +29,18 @@ function App() {
                 LEAD THIRTEEN
               </span>
             </div>
-            <div className="flex items-center gap-3 sm:gap-4">
+            <a
+              href="#testimonials"
+              className="text-sm sm:text-base text-muted-foreground hover:text-foreground transition-colors font-medium"
+            >
+              Testimonials
+            </a>
+            <div className="flex items-center gap-4 sm:gap-6">
               <button
                 onClick={handleBookCall}
                 className="inline-flex items-center justify-center rounded-md text-sm sm:text-base md:text-lg font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-5 sm:h-12 sm:px-6 md:h-14 md:px-8"
               >
-                Book a Call
+                Book a Free Strategy Call
               </button>
             </div>
           </div>
@@ -80,7 +86,7 @@ function App() {
                   onClick={handleBookCall}
                   className="inline-flex items-center justify-center rounded-md text-base sm:text-lg font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-6 sm:h-14 sm:px-8 w-full sm:w-auto max-w-xs"
                 >
-                  Book a Call
+                  Book a Free Strategy Call
                 </button>
               </div>
 
@@ -129,7 +135,7 @@ function App() {
         </section>
 
         {/* Testimonials Section */}
-        <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+        <section id="testimonials" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 scroll-mt-24">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-12 sm:mb-16">
               What our <span className="text-primary">clients</span> say
