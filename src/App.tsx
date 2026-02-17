@@ -23,7 +23,7 @@ function App() {
               href="#testimonials"
               className="text-sm sm:text-base text-muted-foreground hover:text-foreground transition-colors font-medium"
             >
-              Testimonials
+              TESTIMONIALS
             </a>
           </div>
         </div>
@@ -52,15 +52,15 @@ function App() {
                 </div>
 
                 <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-clash tracking-tight text-center">
-                  <span className="sprint-text-gradient">The Thirteen</span>
+                  <span className="sprint-text-gradient">THE THIRTEEN</span>
                   <br />
-                  <span className="sprint-text-gradient-alt">Sprint</span>
+                  <span className="sprint-text-gradient-alt">SPRINT</span>
                 </h2>
 
                 <div className="h-px w-24 sm:w-32 bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
 
                 <p className="text-base sm:text-lg md:text-xl text-muted-foreground font-medium tracking-wide sprint-shimmer">
-                  Stay Tuned
+                  STAY TUNED
                 </p>
               </div>
             </div>
@@ -71,7 +71,7 @@ function App() {
         <section id="testimonials" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 scroll-mt-24">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-12 sm:mb-16">
-              What our <span className="text-primary">clients</span> say
+              WHAT OUR <span className="text-primary">CLIENTS</span> SAY
             </h2>
 
             {/* Video Testimonials */}
