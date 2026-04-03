@@ -30,38 +30,18 @@ function App() {
       </nav>
 
       <div className="relative z-10">
-        {/* Launch Announcement */}
+        {/* VSL Section */}
         <section className="pt-8 sm:pt-12 pb-6 sm:pb-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
-            <div className="relative w-full glass-strong rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 border border-white/10 py-16 sm:py-24 md:py-32 px-6">
-              {/* Animated glow orbs */}
-              <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px] animate-pulse" />
-                <div className="absolute top-1/4 left-1/4 w-[300px] h-[300px] bg-purple-500/10 rounded-full blur-[80px] animate-blob" />
-                <div className="absolute bottom-1/4 right-1/4 w-[250px] h-[250px] bg-violet-400/10 rounded-full blur-[80px] animate-blob animation-delay-2000" />
-              </div>
-
-              {/* Content */}
-              <div className="relative z-10 flex flex-col items-center gap-6 sm:gap-8">
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-xs sm:text-sm font-semibold tracking-widest uppercase sprint-badge-glow">
-                  <span className="relative flex h-2 w-2">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-                  </span>
-                  Coming Soon
-                </div>
-
-                <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-clash tracking-tight text-center">
-                  <span className="sprint-text-gradient">THE THIRTEEN</span>
-                  <br />
-                  <span className="sprint-text-gradient-alt">SPRINT</span>
-                </h2>
-
-                <div className="h-px w-24 sm:w-32 bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
-
-                <p className="text-base sm:text-lg md:text-xl text-muted-foreground font-medium tracking-wide sprint-shimmer">
-                  STAY TUNED
-                </p>
+            <div className="relative w-full glass-strong rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 border border-white/10">
+              <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+                <iframe
+                  src="https://www.youtube.com/embed/cZQbmPy7sn8?modestbranding=1&rel=0"
+                  allowFullScreen
+                  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+                  title="The Thirteen Sprint VSL"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                />
               </div>
             </div>
           </div>
