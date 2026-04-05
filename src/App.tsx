@@ -44,6 +44,16 @@ function App() {
                 />
               </div>
             </div>
+            <div className="mt-6 flex justify-center">
+              <a
+                href="https://cal.com/adham-hamza/fit-assessment"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-primary text-primary-foreground font-semibold text-lg rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-primary/30"
+              >
+                Book a Call
+              </a>
+            </div>
           </div>
         </section>
 
