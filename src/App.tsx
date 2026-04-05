@@ -34,9 +34,9 @@ function App() {
         <section className="pt-8 sm:pt-12 pb-6 sm:pb-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <div className="relative w-full glass-strong rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 border border-white/10">
-              <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+              <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
                 <iframe
-                  src="https://player.vimeo.com/video/1180304687?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1"
+                  src="https://player.vimeo.com/video/1180306974?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1"
                   frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
