@@ -33,6 +33,14 @@ function App() {
         {/* VSL Section */}
         <section className="pt-8 sm:pt-12 pb-6 sm:pb-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-8 sm:mb-10">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold font-clash tracking-tight mb-4">
+                10 INTERESTED LEADS IN 13 DAYS<br />AND YOU PAY ME <span className="text-primary">$0</span>
+              </h1>
+              <p className="text-base sm:text-lg text-muted-foreground">
+                You only pay for software costs. I handle the rest.
+              </p>
+            </div>
             <div className="relative w-full glass-strong rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 border border-white/10">
               <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                 <iframe
