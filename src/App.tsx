@@ -30,39 +30,39 @@ function App() {
       </nav>
 
       <div className="relative z-10">
-        {/* VSL Section */}
+        {/* Launch Announcement */}
         <section className="pt-8 sm:pt-12 pb-6 sm:pb-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-8 sm:mb-10">
-              <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold font-clash tracking-tight mb-4">
-                10 INTERESTED LEADS IN 13 DAYS<br />AND YOU PAY ME <span className="text-primary">$0</span>
-              </h1>
-              <p className="text-base sm:text-lg text-muted-foreground">
-                You only pay for software costs. I handle the rest.
-              </p>
-            </div>
-            <div className="relative w-full glass-strong rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 border border-white/10">
-              <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
-                <iframe
-                  src="https://player.vimeo.com/video/1180306974?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-                  title="thirteen_sprint_vsl"
-                />
+            <div className="relative w-full glass-strong rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 border border-white/10 py-16 sm:py-24 md:py-32 px-6">
+              {/* Animated glow orbs */}
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px] animate-pulse" />
+                <div className="absolute top-1/4 left-1/4 w-[300px] h-[300px] bg-purple-500/10 rounded-full blur-[80px] animate-blob" />
+                <div className="absolute bottom-1/4 right-1/4 w-[250px] h-[250px] bg-violet-400/10 rounded-full blur-[80px] animate-blob animation-delay-2000" />
               </div>
-            </div>
-            <div className="mt-6 flex justify-center">
-              <a
-                href="https://cal.com/adham-hamza/fit-assessment"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-4 bg-primary text-primary-foreground font-semibold text-lg rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-primary/30"
-              >
-                Book a Call
-              </a>
+
+              {/* Content */}
+              <div className="relative z-10 flex flex-col items-center gap-6 sm:gap-8">
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-xs sm:text-sm font-semibold tracking-widest uppercase sprint-badge-glow">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                  </span>
+                  Coming Soon
+                </div>
+
+                <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-clash tracking-tight text-center">
+                  <span className="sprint-text-gradient">The Thirteen</span>
+                  <br />
+                  <span className="sprint-text-gradient-alt">Sprint</span>
+                </h2>
+
+                <div className="h-px w-24 sm:w-32 bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
+
+                <p className="text-base sm:text-lg md:text-xl text-muted-foreground font-medium tracking-wide sprint-shimmer">
+                  Stay Tuned
+                </p>
+              </div>
             </div>
           </div>
         </section>
