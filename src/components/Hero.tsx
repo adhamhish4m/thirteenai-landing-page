@@ -22,7 +22,7 @@ export function Hero() {
       style={{ minHeight: 'calc(100vh - 5rem)' }}
     >
       {/* sparks (full hero, behind everything) */}
-      <SparksCanvas trackElement={heroRef.current} />
+      <SparksCanvas trackRef={heroRef} />
 
       {/* orb */}
       <div
@@ -59,7 +59,7 @@ export function Hero() {
         >
           Cold email,
           <br />
-          <em className="italic font-normal text-champagne">hand-written.</em>
+          <em className="italic font-normal text-champagne">hand-written</em>.
         </h1>
         <p
           className="font-display italic text-[18px] sm:text-[20px] lg:text-[22px] leading-[1.4] text-ivory/85 mb-7 max-w-[520px] fade-in-up"

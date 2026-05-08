@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import type { RefObject } from 'react';
 import {
   makeAmbient,
   makeScatter,
@@ -14,12 +15,12 @@ const AMBIENT_SPAWN_PROBABILITY_PER_FRAME = 0.05;
 const AMBIENT_PARTICLE_CAP = 50;
 
 type SparksCanvasProps = {
-  /** The element whose mouse events drive the scatter sparks. Defaults to the canvas itself. */
-  trackElement?: HTMLElement | null;
+  /** Ref to the element whose mouse events drive the scatter sparks. Defaults to the canvas itself. */
+  trackRef?: RefObject<HTMLElement | null>;
   className?: string;
 };
 
-export function SparksCanvas({ trackElement, className }: SparksCanvasProps) {
+export function SparksCanvas({ trackRef, className }: SparksCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -42,7 +43,7 @@ export function SparksCanvas({ trackElement, className }: SparksCanvasProps) {
     }
     resize();
 
-    const target = trackElement ?? canvas;
+    const target = trackRef?.current ?? canvas;
 
     function onMove(e: MouseEvent) {
       if (!canvas) return;
@@ -127,7 +128,7 @@ export function SparksCanvas({ trackElement, className }: SparksCanvasProps) {
       target.removeEventListener('mouseleave', onLeave);
       window.removeEventListener('resize', resize);
     };
-  }, [trackElement]);
+  }, [trackRef]);
 
   return (
     <canvas
