@@ -42,7 +42,7 @@ export function Hero() {
 
       {/* right-meta strip */}
       <div
-        className="absolute z-10 top-8 right-8 lg:right-14 text-right font-mono text-[10px] tracking-[0.18em] uppercase text-ivory/55 leading-[2] hidden md:block"
+        className="absolute z-10 top-8 right-8 lg:right-14 text-right font-mono text-[10px] tracking-[0.18em] uppercase text-ivory/55 leading-[2] hidden lg:block"
         aria-hidden
       >
         <div className="fade-in-up" style={{ animationDelay: '0.05s' }}>PAY-PER-LEAD</div>
