@@ -75,7 +75,7 @@ export function Hero() {
           className="font-display italic text-[19px] sm:text-[21px] lg:text-[24px] leading-[1.45] text-ivory/85 mb-7 max-w-[560px] fade-in-up"
           style={{ animationDelay: '0.25s' }}
         >
-          I reach out to your ideal prospects for you. Lead lists, human-written copy, email verification, warmup, and outreach, all done by yours truly. You only pay when a lead lands.
+          I reach out to your ideal prospects for you. Lead lists, human-written copy, email verification, warmup, and outreach, all done by yours truly. You only pay when a lead shows interest.
         </p>
         <a
           href={BOOKING_URL}
