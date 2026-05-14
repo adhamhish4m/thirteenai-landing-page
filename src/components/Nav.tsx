@@ -1,6 +1,6 @@
 import { Logo } from './Logo';
 
-const CONTACT_URL = 'mailto:ask@askthirteen.com';
+const CONTACT_URL = 'mailto:adham@askthirteen.com';
 
 export function Nav() {
   return (

@@ -1,4 +1,4 @@
-const CONTACT_URL = 'mailto:ask@askthirteen.com';
+const CONTACT_URL = 'mailto:adham@askthirteen.com';
 
 export function ClosingSection() {
   return (
@@ -47,7 +47,7 @@ export function ClosingSection() {
             <p>
               The studio is open. <em className="italic text-champagne">Engineered, not wrapped</em>.
             </p>
-            <p>Reach me at ask@askthirteen.com.</p>
+            <p>Reach me at adham@askthirteen.com.</p>
             <p>Looking forward to speaking soon.</p>
           </div>
           <p className="font-display italic text-[18px] sm:text-[19px] text-ivory/85 mb-1">

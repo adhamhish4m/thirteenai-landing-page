@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { SparksCanvas } from './SparksCanvas';
 
-const CONTACT_URL = 'mailto:ask@askthirteen.com';
+const CONTACT_URL = 'mailto:adham@askthirteen.com';
 
 export function Hero() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -55,7 +55,7 @@ export function Hero() {
         className="absolute z-10 top-10 right-8 lg:right-14 text-right font-display italic lowercase text-ivory/75 leading-[1.5] tracking-[-0.005em] hidden lg:block"
         aria-hidden
       >
-        <div className="text-[20px] fade-in-up" style={{ animationDelay: '0.05s' }}>audit-first.</div>
+        <div className="text-[20px] fade-in-up" style={{ animationDelay: '0.05s' }}>the spec.</div>
         <div className="text-[20px] fade-in-up" style={{ animationDelay: '0.15s' }}>founder-led.</div>
         <div className="text-[20px] fade-in-up text-champagne" style={{ animationDelay: '0.25s' }}>engineered, not wrapped.</div>
       </div>
@@ -75,7 +75,7 @@ export function Hero() {
           className="font-display italic text-[19px] sm:text-[21px] lg:text-[24px] leading-[1.45] text-ivory/85 mb-7 max-w-[560px] fade-in-up"
           style={{ animationDelay: '0.25s' }}
         >
-          More soon. The studio is open. Reach me at ask@askthirteen.com.
+          More soon. The studio is open. Reach me at adham@askthirteen.com.
         </p>
         <a
           href={CONTACT_URL}
