@@ -57,7 +57,7 @@ export function Hero() {
       >
         <div className="text-[20px] fade-in-up" style={{ animationDelay: '0.05s' }}>the assessment.</div>
         <div className="text-[20px] fade-in-up" style={{ animationDelay: '0.15s' }}>founder-led.</div>
-        <div className="text-[20px] fade-in-up text-champagne" style={{ animationDelay: '0.25s' }}>engineered, not wrapped.</div>
+        <div className="text-[20px] fade-in-up text-champagne" style={{ animationDelay: '0.25s' }}>a qualified AI engineer, not self-proclaimed.</div>
       </div>
 
       {/* content (bottom-left) */}
@@ -71,18 +71,33 @@ export function Hero() {
           <br />
           <em className="italic font-normal text-champagne">engineered</em>.
         </h1>
-        <p
-          className="font-display italic text-[19px] sm:text-[21px] lg:text-[24px] leading-[1.45] text-ivory/85 mb-7 max-w-[560px] fade-in-up"
+        <div
+          className="font-display italic text-[18px] sm:text-[20px] lg:text-[22px] leading-[1.5] text-ivory/85 mb-7 max-w-[600px] space-y-3 fade-in-up"
           style={{ animationDelay: '0.25s' }}
         >
-          More soon. The studio is open. Reach me at adham@askthirteen.com.
-        </p>
+          <p>
+            I run{' '}
+            <span className="not-italic font-medium text-ivory">
+              the assessment<span className="text-champagne">.</span>
+            </span>{' '}
+            with you.
+          </p>
+          <p>
+            Together, we dig deep into your business and processes. We find exactly what's inefficient and holding you back.
+          </p>
+          <p>
+            I then make a tailored roadmap for your business specifically, and build it out module by module for you.
+          </p>
+          <p className="text-ivory/70">
+            Planned and executed by a qualified AI engineer, not a self-proclaimed one.
+          </p>
+        </div>
         <a
           href={CONTACT_URL}
           className="inline-flex items-center gap-2.5 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-ivory shadow-[0_0_0_1px_rgba(201,169,110,0.3)] hover:opacity-95 transition fade-in-up"
           style={{ animationDelay: '0.35s' }}
         >
-          ask thirteen.
+          book the assessment.
           <span aria-hidden>→</span>
         </a>
       </div>

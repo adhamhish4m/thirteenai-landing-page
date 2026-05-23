@@ -13,22 +13,13 @@ const CREDENTIALS: Credential[] = [
     body: (
       <>
         Computer Science · AI ·{' '}
-        <em className="italic text-champagne">Top-100 Globally</em>
+        <em className="italic text-champagne">Top 100 University Globally</em>
       </>
     ),
   },
   {
     label: 'CERTIFIED',
     body: 'AI Consultant',
-  },
-  {
-    label: 'LIVING PROOF',
-    body: (
-      <>
-        Running my own agency on the{' '}
-        <em className="italic text-champagne">same AIOS</em> I'd build for you
-      </>
-    ),
   },
 ];
 
@@ -43,7 +34,7 @@ export function CredentialStrip() {
           </span>
         </div>
         <h2 className="font-display italic font-normal text-[48px] sm:text-[58px] lg:text-[64px] leading-[1.06] tracking-[-0.02em] text-ivory mb-10 sm:mb-12">
-          Built by an <em className="italic text-champagne">engineer</em>.
+          Built by a <em className="italic text-champagne">qualified AI engineer</em>.
         </h2>
         <div className="border-t border-white/[0.08]">
           {CREDENTIALS.map(({ label, body }) => (

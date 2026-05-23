@@ -10,7 +10,7 @@ export function ClosingSection() {
           background: 'radial-gradient(ellipse at 80% 30%, rgba(157,106,221,0.10) 0%, transparent 60%)',
         }}
       />
-      <div className="mx-auto max-w-[1100px] grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center relative">
+      <div className="mx-auto max-w-[1100px] grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start relative">
         {/* LEFT */}
         <div>
           <div className="flex items-center gap-3 mb-5">
@@ -31,7 +31,7 @@ export function ClosingSection() {
             href={CONTACT_URL}
             className="inline-flex items-center gap-2.5 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-ivory shadow-[0_0_0_1px_rgba(201,169,110,0.3)] hover:opacity-95 transition"
           >
-            ask thirteen.
+            see if you qualify.
             <span aria-hidden>→</span>
           </a>
         </div>
@@ -43,12 +43,27 @@ export function ClosingSection() {
             <span className="text-ivory/40">LDN · 2026</span>
           </div>
           <div className="font-display text-[18px] sm:text-[19px] lg:text-[20px] leading-[1.65] text-ivory/95 mb-6 space-y-4">
-            <p>The site is being written.</p>
+            <p>You can't trust a self-proclaimed AI "expert" to properly analyze your business.</p>
+            <p>You want someone with the credentials to back their claims. You want to feel you're in safe hands.</p>
+            <p>The business you built doesn't deserve to be neglected or down-played.</p>
+            <p>That's where I come in.</p>
             <p>
-              The studio is open. <em className="italic text-champagne">Engineered, not wrapped</em>.
+              I am a qualified AI professional with a degree in Computer Science with AI from a{' '}
+              <em className="italic text-champagne">top 100 university in the world</em>.
             </p>
-            <p>Reach me at adham@askthirteen.com.</p>
-            <p>Looking forward to speaking soon.</p>
+            <p>
+              I start with one thing.{' '}
+              <span className="font-medium">
+                the assessment<span className="text-champagne">.</span>
+              </span>{' '}
+              I analyze your entire business with you over a call. Every process. Every bottleneck. Every reason why you're not spending more time doing what you love.
+            </p>
+            <p>I then craft a tailored roadmap that walks you through the exact steps we'd implement to give you your time and life back.</p>
+            <p>Finally, I build it for you brick by brick. Planned and executed by a qualified AI engineer. No outsourcing.</p>
+            <p>
+              If you want to learn more,{' '}
+              <em className="italic text-champagne">book the assessment</em>. Worst case scenario is you walk away knowing the exact next steps to get your life back and not be drowning IN your business.
+            </p>
           </div>
           <p className="font-display italic text-[18px] sm:text-[19px] text-ivory/85 mb-1">
             Your biggest supporter,

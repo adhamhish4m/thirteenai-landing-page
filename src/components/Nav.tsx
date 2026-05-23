@@ -12,7 +12,7 @@ export function Nav() {
             href={CONTACT_URL}
             className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2.5 sm:px-5 sm:py-2.5 text-[13px] sm:text-sm font-semibold text-ivory shadow-[0_0_0_1px_rgba(201,169,110,0.3)] hover:opacity-95 transition min-h-[44px]"
           >
-            ask thirteen.
+            book the assessment.
             <span aria-hidden>→</span>
           </a>
         </div>
