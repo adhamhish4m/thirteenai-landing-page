@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { SparksCanvas } from './SparksCanvas';
 
-const CONTACT_URL = 'mailto:adham@askthirteen.com';
+const CONTACT_URL = 'https://cal.com/adham-hamza/fit-assessment';
 
 export function Hero() {
   const heroRef = useRef<HTMLDivElement>(null);

@@ -1,6 +1,6 @@
 import { Logo } from './Logo';
 
-const CONTACT_URL = 'mailto:adham@askthirteen.com';
+const CONTACT_URL = 'https://cal.com/adham-hamza/fit-assessment';
 
 export function Nav() {
   return (
