@@ -661,6 +661,22 @@
     var N = msgs.length;
     var raf = null;
 
+    // Map raw scroll progress -> centered-message index, but give each
+    // statement its own scroll "slot" where it stays put (sharp + centered)
+    // for most of the slot, then hands off quickly to the next. So any
+    // resting scroll position lands on a clear statement instead of a
+    // blurred in-between — no need to balance the scroll perfectly.
+    var HOLD = 0.62; // fraction of each slot the statement stays centered
+    function dwellPos(p) {
+      var slot = p * N;                       // 0 .. N — one slot per statement
+      var k = Math.min(Math.floor(slot), N - 1);
+      if (k >= N - 1) return N - 1;           // last statement holds to the end
+      var f = slot - k;                       // 0..1 within this slot
+      var t = f <= HOLD ? 0 : (f - HOLD) / (1 - HOLD);
+      t = t * t * (3 - 2 * t);                // smoothstep the handoff
+      return k + t;
+    }
+
     function update() {
       raf = null;
       var rect = section.getBoundingClientRect();
@@ -668,8 +684,8 @@
       var total = section.offsetHeight - vh;
       // progress through the section: 0 when its top hits viewport top, 1 at the end
       var p = Math.min(Math.max(-rect.top / total, 0), 1);
-      // which message is centered (0 .. N-1)
-      var pos = p * (N - 1);
+      // which message is centered (0 .. N-1), with a dwell on each statement
+      var pos = dwellPos(p);
       var spacing = vh * 0.62;
 
       for (var i = 0; i < N; i++) {
