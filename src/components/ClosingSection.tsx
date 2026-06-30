@@ -72,7 +72,7 @@ export function ClosingSection() {
             Adham
           </div>
           <div className="font-sans text-[12px] tracking-[0.18em] uppercase text-muted-foreground">
-            FOUNDER · THIRTEEN
+            FOUNDER · VANTAGE
           </div>
         </div>
       </div>
