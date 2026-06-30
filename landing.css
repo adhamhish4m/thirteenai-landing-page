@@ -9,7 +9,7 @@
   /* brand constants (surface-independent) */
   --purple: #9d6add;
   --purple-2: #b487ee;
-  --champagne: #c9a96e;
+  --champagne: #c3a368;
   --maxw: 1200px;
   --shell: 1200px;
   --gutter: 40px;
@@ -110,7 +110,7 @@ em.acc {
 
 /* ---------- Wordmark ---------- */
 .wm {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Gambetta', serif;
   font-style: normal;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -1547,7 +1547,7 @@ footer.site-footer {
   border-top: 1px solid var(--rule);
 }
 .ft-mark {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Gambetta', serif;
   font-style: normal; font-weight: 500;
   font-size: 26px; line-height: 1; letter-spacing: -0.01em;
   color: var(--fg-1); flex: 0 0 auto;
