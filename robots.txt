@@ -1,0 +1,29 @@
+# robots.txt — askvantage.ai
+# Search + AI crawlers are welcome. Being cited by AI assistants is on-brand.
+
+User-agent: *
+Allow: /
+
+# Named AI crawlers (explicitly allowed)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.askvantage.ai/sitemap.xml

@@ -1,0 +1,27 @@
+# vantage (askvantage.ai)
+
+> vantage helps busy small-business owners get their life back using AI, without
+> hiring. Founded by Adham Hamza, an AI engineer who installs working systems
+> rather than delivering slide decks. One paid AI assessment maps the highest-value
+> automations; implementation builds follow. Based in London, serving UK and US clients.
+
+## What vantage does
+- AI readiness assessment for small businesses (the paid diagnostic; a clear roadmap of where AI removes manual work)
+- AI Operating System implementation: an intelligence layer wrapped around a business (context, live data, daily intelligence, task automation)
+- Vertical builds, e.g. after-hours call screening and missed-call recovery for commercial cleaning companies (Go Janitorial case study)
+
+## Key facts
+- Founder: Adham Hamza, AI engineer (LinkedIn: https://www.linkedin.com/in/adham-hamza/)
+- Offer: paid AI assessment, then optional implementation builds; 30-day money-back guarantee
+- Contact: adham@askvantage.ai
+- Book the assessment: https://cal.com/adham-hamza/the-assessment
+
+## What is an AI Operating System?
+An AI Operating System is an intelligence layer wrapped around an entire small
+business. It gives the owner back time by understanding the business context,
+seeing the numbers in real time, synthesising signals into a daily brief, and
+automating recurring tasks one by one, so the business runs with less manual work.
+
+## Links
+- Home: https://www.askvantage.ai/
+- Book an assessment: https://cal.com/adham-hamza/the-assessment
