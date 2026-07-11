@@ -92,7 +92,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: -0.005em;
 }
 .mono {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-family: ui-monospace, monospace;
   font-weight: 400;
   font-size: 11px;
   letter-spacing: 0.02em;
@@ -156,7 +156,7 @@ nav.top .right { justify-self: end; display: flex; align-items: center; gap: 16p
   padding: 7px 13px;
   border: 1px solid var(--badge-border);
   border-radius: 999px;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 10.5px;
   letter-spacing: 0.04em;
   color: var(--fg-2);
@@ -384,7 +384,7 @@ nav.top .right { justify-self: end; display: flex; align-items: center; gap: 16p
   color: var(--fg-1);
 }
 .tcard figcaption {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 9.5px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -444,7 +444,7 @@ nav.top .right { justify-self: end; display: flex; align-items: center; gap: 16p
 }
 .aud-eyebrow .ln { width: 42px; height: 1px; background: var(--champagne); opacity: 0.65; }
 .aud-eyebrow .txt {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-weight: 500;
   font-size: 13.5px; letter-spacing: 0.2em; text-transform: uppercase;
   color: var(--champagne); white-space: nowrap;
@@ -509,7 +509,7 @@ nav.top .right { justify-self: end; display: flex; align-items: center; gap: 16p
 }
 .hero .reassure {
   margin-top: 20px;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 11px;
   letter-spacing: 0.04em;
   color: var(--fg-3);
@@ -547,7 +547,7 @@ html[data-surface="light"] .float-badge { box-shadow: 0 16px 40px -24px rgba(23,
 }
 .float-badge .v .u { font-size: 14px; color: var(--fg-3); font-style: italic; margin-left: 3px; }
 .float-badge .k {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 9.5px; letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--fg-3);
 }
@@ -591,7 +591,7 @@ html[data-surface="light"] .float-badge { box-shadow: 0 16px 40px -24px rgba(23,
 .statrow .cell .v .u { font-size: 16px; color: var(--champagne); }
 .statrow .cell .k {
   margin-top: 9px;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 9.5px; letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--fg-3); line-height: 1.5;
 }
@@ -679,7 +679,7 @@ html[data-hero="c"] .hero h1 { font-size: clamp(58px, 9vw, 132px); }
 
 /* "your logo next?" placeholder chip in the marquee */
 .logo-next {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--champagne);
   border: 1px dashed color-mix(in srgb, var(--champagne) 50%, transparent);
@@ -804,7 +804,7 @@ html[data-hero="c"] .hero h1 { font-size: clamp(58px, 9vw, 132px); }
 .wmf-eyebrow {
   position: relative;
   z-index: 3;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 12px;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -823,7 +823,7 @@ html[data-hero="c"] .hero h1 { font-size: clamp(58px, 9vw, 132px); }
   color: var(--fg-1);
 }
 .wmf-tail {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-weight: 500;
   font-size: clamp(12px, 1.3vw, 16px);
   letter-spacing: 0.16em;
@@ -861,7 +861,7 @@ html[data-hero="c"] .hero h1 { font-size: clamp(58px, 9vw, 132px); }
 .grt-mid {
   margin: 10px 0 2px;
   text-align: center;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-weight: 500; font-size: clamp(13px, 1.5vw, 18px);
   letter-spacing: 0.16em; text-transform: uppercase; color: var(--fg-3);
 }
@@ -884,7 +884,7 @@ html[data-hero="c"] .hero h1 { font-size: clamp(58px, 9vw, 132px); }
 .hero-assess-link {
   display: inline-block;
   margin-top: 18px;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -950,7 +950,7 @@ html[data-hero="c"] .hero h1 { font-size: clamp(58px, 9vw, 132px); }
   color: var(--fg-1);
 }
 .tq .co {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--fg-3);
 }
@@ -1173,7 +1173,7 @@ html[data-hero="c"] .hero h1 { font-size: clamp(58px, 9vw, 132px); }
 section.band { position: relative; padding: 104px 40px; }
 .wrap { max-width: var(--maxw); margin: 0 auto; }
 .eyebrow {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase;
   color: var(--fg-3);
 }
@@ -1234,7 +1234,7 @@ section.band { position: relative; padding: 104px 40px; }
 .svc .top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 26px; }
 .svc .ico { width: 22px; height: 22px; color: var(--champagne); }
 .svc .idx {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--fg-4);
 }
@@ -1249,7 +1249,7 @@ section.band { position: relative; padding: 104px 40px; }
 .svc-foot {
   margin: 22px 64px 0;
   display: flex; justify-content: center;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--fg-3);
 }
@@ -1290,7 +1290,7 @@ html[data-surface="light"] .assess-wrap {
 }
 .assess .ttl .champ { color: var(--champagne); }
 .assess .spec {
-  font-family: 'JetBrains Mono', monospace; font-size: 10.5px;
+  font-family: ui-monospace, monospace; font-size: 10.5px;
   color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.12em;
   text-align: right; line-height: 1.7;
 }
@@ -1298,7 +1298,7 @@ html[data-surface="light"] .assess-wrap {
 .assess .lead em.acc { font-size: 19px; }
 .assess .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 36px; margin-top: 32px; }
 .assess .stats .k {
-  font-family: 'JetBrains Mono', monospace; font-size: 10px;
+  font-family: ui-monospace, monospace; font-size: 10px;
   letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); margin-bottom: 7px;
 }
 .assess .stats .v {
@@ -1314,7 +1314,7 @@ html[data-surface="light"] .assess-wrap {
 }
 .step:last-child { border-bottom: none; }
 .step .n {
-  font-family: 'JetBrains Mono', monospace; font-size: 10px;
+  font-family: ui-monospace, monospace; font-size: 10px;
   letter-spacing: 0.12em; color: var(--fg-3);
 }
 .step .n .champ { color: var(--champagne); }
@@ -1343,7 +1343,7 @@ html[data-surface="light"] .photo::after { background: linear-gradient(180deg, t
 .photo .meta {
   position: absolute; left: 16px; right: 16px; bottom: 14px; z-index: 2;
   display: flex; justify-content: space-between;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 10px; letter-spacing: 0.13em; text-transform: uppercase; color: #e7e2da;
 }
 .photo .meta .champ { color: var(--champagne); }
@@ -1362,8 +1362,8 @@ html[data-surface="light"] .photo::after { background: linear-gradient(180deg, t
 .letter .strike { color: var(--fg-3); text-decoration: line-through; }
 .letter .from { margin-top: 24px; color: var(--fg-2); font-size: 14px; }
 .letter .sig {
-  font-family: 'Caveat', cursive; font-weight: 600;
-  color: var(--fg-1); font-size: 38px; line-height: 1; margin-top: 4px;
+  font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 600;
+  color: var(--fg-1); font-size: 34px; line-height: 1; margin-top: 8px;
 }
 .letter .sig .dot { color: var(--champagne); }
 
@@ -1466,7 +1466,7 @@ html[data-surface="light"] .cta-block .wash { background: radial-gradient(40% 50
   display: block;
   text-align: center;
   margin: 12px 0 2px;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--fg-3);
 }
@@ -1561,7 +1561,7 @@ footer.site-footer {
 .ft-links {
   flex: 0 0 auto;
   display: flex; align-items: center; gap: 14px;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, monospace;
   font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--fg-3); white-space: nowrap;
 }
