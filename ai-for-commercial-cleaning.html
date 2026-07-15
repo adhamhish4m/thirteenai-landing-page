@@ -54,7 +54,10 @@
   .vgrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
   .vcard { background: #fdfbf7; border: 1px solid var(--rule); border-radius: 18px; padding: 32px 30px;
     box-shadow: 0 1px 2px rgba(23,19,28,0.04), 0 10px 30px rgba(23,19,28,0.05);
-    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s var(--ease); }
+    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s var(--ease);
+    /* light island on the dark page: force ink text tones regardless of page surface */
+    --fg-1: #17131c; --fg-2: rgba(23,19,28,0.62); --fg-3: rgba(23,19,28,0.45);
+    --rule: rgba(23,19,28,0.12); --champagne: #96763A; }
   .vcard:hover { transform: translateY(-3px); border-color: var(--champagne);
     box-shadow: 0 2px 4px rgba(23,19,28,0.05), 0 16px 40px rgba(23,19,28,0.09); }
   .vcard .vicon { color: var(--champagne); margin-bottom: 18px; }
@@ -169,8 +172,8 @@
     },
     {
       "@type": "Question",
-      "name": "Are these finished products?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No. They're working systems. Real, but built to prove they work. The assessment picks the one that matters most for you, then we build that one properly." }
+      "name": "Can you build these for me?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. These are real, working systems. The assessment picks the one that pays off most for you, then we build it around how your business actually runs." }
     },
     {
       "@type": "Question",
@@ -192,7 +195,7 @@
 <nav class="top">
   <div class="nav-inner">
     <a href="/" class="brand" aria-label="dark horse ai home"><img class="wm-img wm-img-lockup" src="/lockup-dark.svg" alt="dark horse ai" /></a>
-    <a class="btn primary sm" href="https://cal.com/adham-hamza/the-assessment" target="_blank" rel="noopener">
+    <a class="btn primary sm magnetic" href="https://cal.com/adham-hamza/the-assessment" target="_blank" rel="noopener">
       <span class="lbl">let's chat
       <svg class="arr" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg></span>
     </a>
@@ -207,7 +210,7 @@
     <h1>AI for commercial<br/><span class="hi">cleaning companies.</span></h1>
     <p class="sub">You didn't start a cleaning company to chase invoices and answer the phone at 9pm. But that's where the week goes. We build the AI that takes it off your plate. Here's what we've built so far.</p>
     <div class="cta-row">
-      <a class="btn primary" href="https://cal.com/adham-hamza/the-assessment" target="_blank" rel="noopener">
+      <a class="btn primary magnetic" href="https://cal.com/adham-hamza/the-assessment" target="_blank" rel="noopener">
         <span class="lbl">start with the assessment
         <svg class="arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg></span>
       </a>
@@ -220,7 +223,7 @@
       <div class="vsec-head">
         <div class="eyebrow"><span class="txt">the busywork</span></div>
         <h2>Four jobs eating your week</h2>
-        <p class="lead">We work with a commercial cleaning company. The same four jobs kept eating their week. So we built something for each one. Everything below is a <b>working system</b>. Not a promise. Not a mockup. Built.</p>
+        <p class="lead">We work with a commercial cleaning company. The same four jobs kept eating their week. So we built something for each one. Everything below is a <b>working system</b>, running right now.</p>
       </div>
 
       <div class="vgrid">
@@ -301,8 +304,8 @@
         <p>Pretty much. We already work with one, Go Janitorial, and built these around the jobs that actually eat a cleaning operator's week. Invoicing, bids, after-hours calls, feedback. You won't spend the first three calls explaining how the business runs. We get it.</p>
       </div>
       <div class="qa">
-        <h3>Are these finished products?</h3>
-        <p>No. They're working systems. Real, but built to prove they work. The assessment picks the one that matters most for you, then we build that one properly.</p>
+        <h3>Can you build these for me?</h3>
+        <p>Yes. These are real, working systems. The assessment picks the one that pays off most for you, then we build it around how your business actually runs.</p>
       </div>
       <div class="qa">
         <h3>I don't have clean data or a tech team. Can I still do this?</h3>
@@ -319,10 +322,10 @@
   <section class="vsec vclose">
     <div class="wrap">
       <div class="eyebrow" style="justify-content:center;"><span class="txt">where to start</span></div>
-      <h2 style="font-family:'Inter',sans-serif;font-weight:700;letter-spacing:-0.015em;font-size:clamp(26px,4vw,42px);line-height:1.1;color:var(--fg-1);">These are working systems.<br/>Yours gets built properly.</h2>
-      <p>Everything here is a prototype. Real and working, but built to prove a point. <b>The assessment</b> figures out which one actually pays off for your operation. Then we build it properly. Around how you already run.</p>
+      <h2 style="font-family:'Inter',sans-serif;font-weight:700;letter-spacing:-0.015em;font-size:clamp(26px,4vw,42px);line-height:1.1;color:var(--fg-1);">These are real, working systems.<br/>Yours is next.</h2>
+      <p>Everything here is built and running. <b>The assessment</b> figures out which one actually pays off for your operation. Then we build it. Around how you already run.</p>
       <div class="cta-row" style="display:flex;justify-content:center;">
-        <a class="btn primary" href="https://cal.com/adham-hamza/the-assessment" target="_blank" rel="noopener">
+        <a class="btn primary magnetic" href="https://cal.com/adham-hamza/the-assessment" target="_blank" rel="noopener">
           <span class="lbl">start with the assessment
           <svg class="arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg></span>
         </a>
@@ -342,6 +345,38 @@
     <a href="mailto:adham@askvantage.ai">contact</a>
   </nav>
 </footer>
+
+<!-- Magnetic CTA (same behaviour as the landing page) -->
+<script type="text/javascript">
+  (function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.querySelectorAll('.btn.primary.magnetic').forEach(function (btn) {
+      var tx = 0, ty = 0, cx = 0, cy = 0, raf = null;
+      function tick() {
+        cx += (tx - cx) * 0.2; cy += (ty - cy) * 0.2;
+        btn.style.setProperty('--tx', cx.toFixed(2) + 'px');
+        btn.style.setProperty('--ty', cy.toFixed(2) + 'px');
+        if (Math.abs(tx - cx) > 0.1 || Math.abs(ty - cy) > 0.1) { raf = requestAnimationFrame(tick); }
+        else { raf = null; }
+      }
+      btn.addEventListener('pointermove', function (e) {
+        var r = btn.getBoundingClientRect();
+        var x = e.clientX - r.left, y = e.clientY - r.top;
+        btn.style.setProperty('--bx', x + 'px');
+        btn.style.setProperty('--by', y + 'px');
+        if (!reduce) {
+          tx = ((x / r.width) - 0.5) * 14;
+          ty = ((y / r.height) - 0.5) * 10;
+          if (!raf) raf = requestAnimationFrame(tick);
+        }
+      });
+      btn.addEventListener('pointerleave', function () {
+        tx = 0; ty = 0;
+        if (!reduce && !raf) raf = requestAnimationFrame(tick);
+      });
+    });
+  })();
+</script>
 
 </body>
 </html>
