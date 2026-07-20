@@ -26,7 +26,7 @@
      Bucket is sticky per browser; ?hero_copy=1|2 forces one for QA without persisting. -->
 <script>
   (function () {
-    var KEY = 'dh_hero_copy', VARIANTS = ['1', '2', '3', '4'], v = null;
+    var KEY = 'dh_hero_copy', VARIANTS = ['1', '2'], v = null;
     try { v = localStorage.getItem(KEY); } catch (e) {}
     if (VARIANTS.indexOf(v) === -1) {
       v = VARIANTS[Math.floor(Math.random() * VARIANTS.length)];
@@ -289,16 +289,6 @@
         <h1>Get back 10+ hours/week<sup class="ast"><abbr title="on average">*</abbr></sup><br/><span class="hi">without having to hire.</span></h1>
         <p class="sub">We find what's slowing your business down, and build the AI to fix it.</p>
         <p class="fine"><span class="champ">*</span> on average</p>
-      </div>
-
-      <div class="copyset" data-c="3">
-        <h1>Stop hiring people<br/><span class="hi">to free up your time.</span></h1>
-        <p class="sub">We find what's slowing your business down, and build the AI to fix it.</p>
-      </div>
-
-      <div class="copyset" data-c="4">
-        <h1>Stop paying full&#8209;time salaries<br/><span class="hi">for automatable tasks.</span></h1>
-        <p class="sub">We find what's slowing your business down, and build the AI to fix it.</p>
       </div>
 
       <div class="cta-row">
